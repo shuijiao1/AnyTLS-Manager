@@ -26,12 +26,6 @@
 bash <(curl -Ls https://anytls.shuijiao.de)
 ```
 
-备用方式：
-
-```bash
-bash <(curl -Ls https://raw.githubusercontent.com/shuijiao1/AnyTLS-Manager/main/anytls.sh)
-```
-
 ---
 
 ## ⚙️ 版本与发布

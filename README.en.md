@@ -26,12 +26,6 @@
 bash <(curl -Ls https://anytls.shuijiao.de)
 ```
 
-Fallback:
-
-```bash
-bash <(curl -Ls https://raw.githubusercontent.com/shuijiao1/AnyTLS-Manager/main/anytls.sh)
-```
-
 ---
 
 ## ⚙️ Versioning and Releases
