@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
 
-VERSION="0.1.3"
+VERSION="0.1.5"
 REPO_RAW="https://raw.githubusercontent.com/shuijiao1/AnyTLS-Manager/main"
 UPDATE_URL="$REPO_RAW/anytls.sh"
 VERSION_URL="$REPO_RAW/version.txt"
@@ -110,7 +110,7 @@ install_anytls() {
 	write_service "$port" "$password"
 	systemctl daemon-reload
 	systemctl enable --now "$SERVICE_NAME"
-	ok "anytls 已安装/更新并启动"
+	ok "AnyTLS-Go 核心已安装/更新并启动"
 	display_config "$port" "$password"
 }
 write_service() {
@@ -227,7 +227,7 @@ menu() {
 		say "运行状态：$(run_status)"
 		say ""
 		say "${BLUE}=== 基础功能 ===${NC}"
-		say "${GREEN}1.${NC} 安装/更新 anytls"
+		say "${GREEN}1.${NC} 安装/更新 AnyTLS-Go 核心"
 		say "${GREEN}2.${NC} 卸载 anytls"
 		say "${GREEN}3.${NC} 修改配置"
 		say "${GREEN}4.${NC} 查看配置"

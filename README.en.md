@@ -1,7 +1,7 @@
 # AnyTLS-Manager
 
 ![Shell](https://img.shields.io/badge/Shell-Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
-![Version](https://img.shields.io/badge/version-v0.1.4-blue?style=flat-square)
+![Version](https://img.shields.io/badge/version-v0.1.5-blue?style=flat-square)
 
 [中文](README.md) | **English**
 
@@ -13,7 +13,7 @@
 
 ## 🎯 Features
 
-- Install / update AnyTLS-Go
+- Install / update the AnyTLS-Go core
 - Interactive port and password setup
 - systemd service management
 - Self-update check
